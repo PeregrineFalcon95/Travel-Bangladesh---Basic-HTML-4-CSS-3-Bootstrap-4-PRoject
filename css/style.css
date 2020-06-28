@@ -46,7 +46,9 @@ table {
 @font-face {
   font-family: "AbhayaLibre";
   src: url(../fonts/AbhayaLibre-Regular.ttf)format('truetype'); }   
-  
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf)format('truetype'); }
 .mt-20 {
 	margin-top: 20px;
 }
@@ -60,6 +62,11 @@ footer>.container, footer .row {
 .navbar-brand{
   font-family: "AbhayaLibre";
   font-size: 35px;
+  /*font-weight: bold;*/
+}
+main{
+  font-family: "Roboto-Regular";
+  /*font-family: "AbhayaLibre";*/
   /*font-weight: bold;*/
 }
 .make_30{

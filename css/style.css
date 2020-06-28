@@ -43,7 +43,10 @@ table {
   border-spacing: 0;
 }
 /*=================CSS RESET END=====================*/
-
+@font-face {
+  font-family: "AbhayaLibre";
+  src: url(../fonts/AbhayaLibre-Regular.ttf)format('truetype'); }   
+  
 .mt-20 {
 	margin-top: 20px;
 }
@@ -53,4 +56,9 @@ footer {
 }
 footer>.container, footer .row {
 	height: 100%;
+}
+.navbar-brand{
+  font-family: "AbhayaLibre";
+  font-size: 35px;
+  /*font-weight: bold;*/
 }
